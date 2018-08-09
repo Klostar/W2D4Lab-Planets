@@ -50,4 +50,5 @@ def get_planet_names_sorted_by_size_decreasing
   return planets_from_sun_backwards.map{|planet| planet.name}.reverse!
 end
 
+# planets_by_size = @planets.sort{|planet1,planet2| planet2.diameter <=> planet1.diameter}
 end
